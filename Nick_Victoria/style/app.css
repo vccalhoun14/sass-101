@@ -160,38 +160,35 @@ a {
 h1, h2 {
   color: #B80000; }
 
-.m-header {
+.site-header {
   border-bottom: solid 0.15em #ccc;
   background: #000 url(../img/sky-background.svg) center center no-repeat;
   background-size: cover;
   padding: 2.5em 0 0.75em 0; }
-  .m-header h1 {
+  .site-header h1 {
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
     padding: 0;
     margin: 0; }
 
-.m-nav {
+.site-nav {
   text-transform: uppercase;
   padding: 0;
   line-height: 1.5em;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
-
-.m-navigation-list--item {
-  display: inline;
-  padding: 1em;
-  font-size: 1em; }
-
-.m-navigation-list--link {
-  padding: 0.2em;
-  text-decoration: none; }
-
-.m-navigation-list--link:hover {
-  background: #B80000;
-  padding: 0.5em;
-  border-radius: 0.5em; }
+  .site-nav li {
+    display: inline;
+    padding: 1em;
+    font-size: 1em; }
+  .site-nav a {
+    padding: 0.2em;
+    text-decoration: none; }
+    .site-nav a:hover {
+      background: #B80000;
+      padding: 0.5em;
+      border-radius: 0.5em; }
 
 .github h1 {
   text-align: center; }
@@ -201,14 +198,7 @@ h1, h2 {
   width: 4em;
   border-radius: 50%; }
 
-<<<<<<< HEAD
-.m-contact-title, .m-contact p {
-=======
-.figure {
-  text-align: center; }
-
 .contact h1, .contact p {
->>>>>>> 535e51a2de7d6cec4f84f6db68cc7a2730ef1d33
   text-align: center;
   color: #66CC00; }
 .contact input,

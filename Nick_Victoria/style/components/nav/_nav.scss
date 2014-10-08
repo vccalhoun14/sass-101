@@ -1,24 +1,24 @@
-.m-nav {
+.site-nav {
   text-transform: uppercase;
   padding: 0;
   line-height: 1.5em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+
+  li {
+    display: inline;
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  a {
+    padding: 0.2em;
+    text-decoration: none;
+    &:hover {
+      background: $nav-background-color;
+      padding: 0.5em;
+      border-radius: 0.5em;
+    }
+  }
 }
 
-.m-navigation-list--item {
-  display: inline;
-  padding: 1em;
-  font-size: 1em;
-}
-
-.m-navigation-list--link {
-  padding: 0.2em;
-  text-decoration: none;
-}
-
-.m-navigation-list--link:hover {
-  background: $nav-background-color;
-  padding: 0.5em;
-  border-radius: 0.5em;
-}
