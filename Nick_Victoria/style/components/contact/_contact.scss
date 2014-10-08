@@ -1,23 +1,23 @@
-.m-contact-title, .m-contact p {
-  text-align: center;
-  color: $contact-text;
-}
+.contact {
+  h1, p {
+    text-align: center;
+    color: $contact-text;
+  }
 
-.m-contact-form--btn,
-.m-contact-form--name,
-.m-contact-form--email,
-.m-contact-form--comment {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.m-contact-form--comment {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
+  textarea {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
-
-.m-contact-form--btn {
-  margin-bottom: 20px;
+  button {
+    margin-bottom: 20px;
+  }
 }

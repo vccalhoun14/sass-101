@@ -201,23 +201,26 @@ h1, h2 {
   width: 4em;
   border-radius: 50%; }
 
+<<<<<<< HEAD
 .m-contact-title, .m-contact p {
+=======
+.figure {
+  text-align: center; }
+
+.contact h1, .contact p {
+>>>>>>> 535e51a2de7d6cec4f84f6db68cc7a2730ef1d33
   text-align: center;
   color: #66CC00; }
-
-.m-contact-form--btn,
-.m-contact-form--name,
-.m-contact-form--email,
-.m-contact-form--comment {
+.contact input,
+.contact textarea,
+.contact button {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-
-.m-contact-form--comment {
+.contact textarea {
   margin-top: 2em;
   margin-bottom: 2em; }
-
-.m-contact-form--btn {
+.contact button {
   margin-bottom: 20px; }
 
 .view {
