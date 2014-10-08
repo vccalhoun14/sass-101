@@ -158,9 +158,6 @@ a:link {
 h1, h2 {
   color: #B80000; }
 
-p {
-  color: #66CC00; }
-
 /*==========================================================================
    Lists
 ==========================================================================*/
@@ -213,7 +210,8 @@ ul {
   text-align: center; }
 
 .m-contact-title, .m-contact p {
-  text-align: center; }
+  text-align: center;
+  color: #66CC00; }
 
 .m-contact-form--btn,
 .m-contact-form--name,
@@ -336,34 +334,29 @@ ul {
 .col:first-child {
   margin-left: 0px; }
 
-.m-footer {
+.site-footer {
   font-size: 1em;
   border-top: solid 0.15em #ccc;
   padding: 0.25% 0 0 0;
   margin: 0; }
-
-.m-footer-location--text {
-  padding: 0 0 0 2em;
-  font-family: 'Roboto', sans-serif; }
-
-.m-footer-social {
-  text-align: center; }
-
-.m-footer-social a:link {
-  color: #000;
-  font-size: 2em;
-  text-decoration: none; }
-
-.m-footer-social a:hover {
-  color: #FF00FF; }
-
-.icon {
-  padding: 0 5%; }
-
-.m-footer-logo--image {
-  width: 5em;
-  float: right;
-  padding: 0 1.5em 0 0; }
+  .site-footer p {
+    padding: 0 0 0 2em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.4em; }
+  .site-footer .social {
+    text-align: center; }
+  .site-footer a {
+    color: #000;
+    font-size: 2em;
+    text-decoration: none; }
+    .site-footer a:hover {
+      color: #FF00FF; }
+  .site-footer .icon {
+    padding: 0 5%; }
+  .site-footer .logo {
+    width: 5em;
+    float: right;
+    padding: 0 1.5em 0 0; }
 
 .main-wrapper {
   text-align: center;
