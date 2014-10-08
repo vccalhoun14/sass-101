@@ -2,25 +2,3 @@
   text-align: center;
   color: green;
 }
-
-/* ================================================
-   MEDIA QUERIES
-   ================================================ */
-
-@media only screen and (max-width: 480px) {
-  .m-footer-location {
-    text-align: center;
-    padding: 0 0 1em 0;
-  }
-
-  .m-footer-location--text {
-    padding: 0;
-  }
-
-  .m-footer-logo--image {
-    float: none;
-    display: block;
-    padding: 0;
-    margin: 0 auto;
-  }
-}

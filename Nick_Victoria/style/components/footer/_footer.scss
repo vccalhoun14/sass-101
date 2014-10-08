@@ -27,4 +27,20 @@
     float: right;
     padding: 0 1.5em 0 0;
   }
+
+  @media only screen and (max-width: 480px) {
+    .location {
+      text-align: center;
+      padding: 0 0 1em 0;
+    }
+    p {
+      padding: 0;
+    }
+    .logo {
+      float: none;
+      display: block;
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
 }
