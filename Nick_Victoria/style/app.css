@@ -148,21 +148,17 @@ small {
 .icon-uniE600:before {
   content: "\e600"; }
 
-/* ==========================================================================
-   Colors
-   ========================================================================== */
-a:link {
-  /*color: #999900;*/
-  color: #fff; }
-
-h1, h2 {
-  color: #B80000; }
-
 /*==========================================================================
    Lists
 ==========================================================================*/
 ul {
   list-style: none; }
+
+a:link {
+  color: #fff; }
+
+h1, h2 {
+  color: #B80000; }
 
 .m-header {
   border-bottom: solid 0.15em #ccc;
@@ -172,7 +168,6 @@ ul {
   .m-header h1 {
     text-align: center;
     font-size: 2em;
-    color: #fff;
     text-transform: uppercase;
     padding: 0;
     margin: 0; }
@@ -194,8 +189,7 @@ ul {
   text-decoration: none; }
 
 .m-navigation-list--link:hover {
-  background: red;
-  color: white;
+  background: #B80000;
   padding: 0.5em;
   border-radius: 0.5em; }
 
@@ -237,7 +231,7 @@ ul {
   overflow: hidden;
   position: relative;
   text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
+  box-shadow: 1px 1px 2px #E6E6E6;
   cursor: default;
   /*  background: #fff url(../images/bgimg.jpg) no-repeat center center*/ }
 

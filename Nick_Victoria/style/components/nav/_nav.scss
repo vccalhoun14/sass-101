@@ -18,8 +18,7 @@
 }
 
 .m-navigation-list--link:hover {
-  background: red;
-  color: white;
+  background: $nav-background-color;
   padding: 0.5em;
   border-radius: 0.5em;
 }

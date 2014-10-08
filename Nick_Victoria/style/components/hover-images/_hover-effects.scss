@@ -3,11 +3,11 @@
   height: 200px;
   margin: 10px;
   float: left;
-  border: 10px solid #fff;
+  border: 10px solid $hover-box-border-color;
   overflow: hidden;
   position: relative;
   text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
+  box-shadow: 1px 1px 2px $hover-box-shadow-color;
   cursor: default;
 /*  background: #fff url(../images/bgimg.jpg) no-repeat center center*/
 }
