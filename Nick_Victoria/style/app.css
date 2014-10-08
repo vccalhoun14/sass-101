@@ -172,14 +172,13 @@ ul {
   background: #000 url(../img/sky-background.svg) center center no-repeat;
   background-size: cover;
   padding: 2.5em 0 0.75em 0; }
-
-.m-header-h1 {
-  text-align: center;
-  font-size: 2em;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0; }
+  .m-header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0; }
 
 .m-nav {
   text-transform: uppercase;
@@ -369,9 +368,6 @@ ul {
 .main-wrapper {
   text-align: center;
   color: green; }
-
-.isHidden {
-  display: none; }
 
 /* ================================================
    MEDIA QUERIES
