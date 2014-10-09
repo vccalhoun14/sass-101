@@ -16,7 +16,7 @@
     font-size: 2em;
     text-decoration: none;
     &:hover {
-    color:#FF00FF;
+      color:#FF00FF;
     }
   }
   .icon {
@@ -27,8 +27,7 @@
     float: right;
     padding: 0 1.5em 0 0;
   }
-
-  @include breakpoint(test) {
+  @include breakpoint(mobile) {
     .location {
       text-align: center;
       padding: 0 0 1em 0;

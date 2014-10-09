@@ -1,13 +1,12 @@
-$mobile: 'screen and (max-width: 320px)';
-$test: 'screen and (max-width: 30em)';
+$mobile: 'screen and (max-width: 30em)';
 $tablet: 'screen and (max-width: 1024px)';
 
 @mixin breakpoint ($media) {
-  @if $media == mobile {
+  @if $media == "mobile" {
     @media #{$mobile} {
       @content;
     }
-  }@else if $media == tablet {
+  }@else if $media == "tablet" {
     @media #{$tablet} {
       @content;
     }

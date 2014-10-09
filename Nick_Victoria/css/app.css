@@ -314,6 +314,17 @@ h1, h2 {
     width: 5em;
     float: right;
     padding: 0 1.5em 0 0; }
+  @media screen and (max-width: 30em) {
+    .site-footer .location {
+      text-align: center;
+      padding: 0 0 1em 0; }
+    .site-footer p {
+      padding: 0; }
+    .site-footer .logo {
+      float: none;
+      display: block;
+      padding: 0;
+      margin: 0 auto; } }
 
 .hover-images {
   width: 80%;
