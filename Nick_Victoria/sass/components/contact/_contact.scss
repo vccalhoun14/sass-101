@@ -1,12 +1,12 @@
 .contact {
-  h1, p {
-    text-align: center;
+  text-align: center;
+  color: $contact-text;
+
+  & > h1 {
     color: $contact-text;
   }
 
-  input,
-  textarea,
-  button {
+  .form-centered {
     display: block;
     margin-left: auto;
     margin-right: auto;

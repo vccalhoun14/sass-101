@@ -198,20 +198,20 @@ h1, h2 {
   width: 4em;
   border-radius: 50%; }
 
-.contact h1, .contact p {
+.contact {
   text-align: center;
   color: #66CC00; }
-.contact input,
-.contact textarea,
-.contact button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-.contact textarea {
-  margin-top: 2em;
-  margin-bottom: 2em; }
-.contact button {
-  margin-bottom: 20px; }
+  .contact > h1 {
+    color: #66CC00; }
+  .contact .form-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contact textarea {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+  .contact button {
+    margin-bottom: 20px; }
 
 .view {
   width: 300px;
