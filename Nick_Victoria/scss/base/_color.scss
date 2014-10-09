@@ -1,0 +1,28 @@
+// Primary Color Palette
+$white:         #fff;
+$black:         #000;
+$guardsman-red: #B80000;
+$limeade:       #66CC00;
+$mercury:       #E6E6E6;
+
+// Color Roles
+$background-color: $black;
+$link-color: $white;
+$header-color: $guardsman-red;
+
+$nav-background-color: $guardsman-red;
+
+$contact-text: $limeade;
+
+$hover-box-border-color: $white;
+$hover-box-shadow-color: $mercury;
+
+
+// Global Color Values
+a {
+  color: $link-color;
+}
+
+h1, h2 {
+  color: $header-color;
+}

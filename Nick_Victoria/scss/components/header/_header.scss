@@ -1,0 +1,13 @@
+.m-header {
+  border-bottom: solid 0.15em #ccc;
+  background: $background-color url(../img/sky-background.svg) center center no-repeat;
+  background-size: cover;
+  padding: 2.5em 0 0.75em 0;
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+  }
+}
