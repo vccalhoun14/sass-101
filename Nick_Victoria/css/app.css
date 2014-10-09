@@ -293,10 +293,9 @@ h1, h2 {
 
 .hover-images {
   padding: 0;
-  text-align: center; }
-
-.col:first-child {
-  margin-left: 0px; }
+  text-align: center;
+  margin: 0 auto;
+  background: blue; }
 
 .site-footer {
   font-size: 1em;
