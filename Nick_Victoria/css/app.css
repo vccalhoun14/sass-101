@@ -321,20 +321,10 @@ h1, h2 {
     width: 5em;
     float: right;
     padding: 0 1.5em 0 0; }
-  @media only screen and (max-width: 480px) {
-    .site-footer .location {
-      text-align: center;
-      padding: 0 0 1em 0; }
-    .site-footer p {
-      padding: 0; }
-    .site-footer .logo {
-      float: none;
-      display: block;
-      padding: 0;
-      margin: 0 auto; } }
 
-.main-wrapper {
-  text-align: center;
-  color: green; }
+.hover-images {
+  margin: 0 auto;
+  padding: 0 auto;
+  background: blue; }
 
 /*# sourceMappingURL=app.css.map */
