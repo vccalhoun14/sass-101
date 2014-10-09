@@ -28,7 +28,7 @@
     padding: 0 1.5em 0 0;
   }
 
-  @media only screen and (max-width: 480px) {
+  @include breakpoint(test) {
     .location {
       text-align: center;
       padding: 0 0 1em 0;
