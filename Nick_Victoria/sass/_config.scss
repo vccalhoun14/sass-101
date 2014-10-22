@@ -1,14 +1,20 @@
+// Primary Color Palette
+$white:         #fff;
+$black:         #000;
+$guardsman-red: #B80000;
+$limeade:       #66CC00;
+$mercury:       #E6E6E6;
+
+// Color Roles
+$background-color: $black;
+$link-color: $white;
+$header-color: $guardsman-red;
+
+$nav-background-color: $guardsman-red;
+
+$contact-text: $limeade;
+
+$hover-box-border-color: $white;
+$hover-box-shadow-color: $mercury;
 $mobile: 'screen and (max-width: 30em)';
 $tablet: 'screen and (max-width: 1024px)';
-
-@mixin breakpoint ($media) {
-  @if $media == "mobile" {
-    @media #{$mobile} {
-      @content;
-    }
-  }@else if $media == "tablet" {
-    @media #{$tablet} {
-      @content;
-    }
-  }
-}

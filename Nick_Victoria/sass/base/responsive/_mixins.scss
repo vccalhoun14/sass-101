@@ -1,0 +1,11 @@
+@mixin breakpoint ($media) {
+  @if $media == "mobile" {
+    @media #{$mobile} {
+      @content;
+    }
+  }@else if $media == "tablet" {
+    @media #{$tablet} {
+      @content;
+    }
+  }
+}
